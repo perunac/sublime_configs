@@ -1,0 +1,17 @@
+{
+	"color_scheme": "Packages/User/SublimeLinter/Flatland Monokai (SublimePythonIDE) (SL).tmTheme",
+	"default_line_ending": "unix",
+	"flatland_sidebar_tree_xsmall": false,
+	"flatland_square_tabs": false,
+	"font_face": "Droid Sans Mono",
+	"ignored_packages":
+	[
+	],
+	"rulers":
+	[
+	],
+	"tab_size": 4,
+	"theme": "Flatland Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"wide_caret": true
+}

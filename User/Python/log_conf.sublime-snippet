@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+def log_conf(level=0):
+    """Set logging level"""
+    if level == 0 or level is None:
+        lvl = logging.ERROR
+    elif level == 1:
+        lvl = logging.INFO
+    elif level == 2:
+        lvl = logging.DEBUG
+    else:
+        lvl = logging.ERROR
+    logging.basicConfig(format='%(levelname)s:%(funcName)s:%(lineno)d: %(message)s', level=lvl)
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>hello</tabTrigger> -->
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <description>Logging level formating</description>
+</snippet>

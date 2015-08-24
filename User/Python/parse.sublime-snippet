@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+def parse():
+    """Function to pars command line arguments"""
+    parser = argparse.ArgumentParser('',)
+    $1
+    args = parser.parse_args()
+    return args
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>hello</tabTrigger> -->
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <description>Logging parse function</description>
+</snippet>

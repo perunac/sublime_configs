@@ -1,0 +1,29 @@
+{
+	"http_proxy": "10.144.1.10",
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"All Autocomplete",
+		"Anaconda",
+		"BracketHighlighter",
+		"C++ Snippets",
+		"Emmet",
+		"Git",
+		"GitGutter",
+		"Jinja2",
+		"LoremGibson",
+		"Package Control",
+		"Predawn",
+		"Puppet",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-cppcheck",
+		"Theme - Flatland",
+		"TodoReview",
+		"TrailingSpaces",
+		"Virtualenv"
+	]
+}
